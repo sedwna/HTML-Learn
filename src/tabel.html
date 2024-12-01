@@ -4,32 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <style>
+      body {
+        font-family: "Calibri";
+      }
+      table {
+        width: 100%;
+        text-align: center;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid blue;
+      }
+      tbody{color: red;}
+    </style>
   </head>
   <body>
     <!-- درست کردن تیبل -->
     <table>
+        <caption>جدول من</caption>
       <!-- tabel row = tr -->
-      <tr>
-        <!-- tabel head = th -->
-        <th>column-1</th>
-        <th>column-1</th>
-        <th>column-1</th>
-      </tr>
+      <thead>
+        <tr>
+          <!-- tabel head = th -->
+          <th>column-1</th>
+          <th>column-1</th>
+          <th>column-1</th>
+        </tr>
+      </thead>
       <!-- row 2 -->
-      <tr>
-        <!-- tabel data = td -->
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-      </tr>
-      <!-- row 4 -->
+      <tbody>
+        <tr>
+          <!-- tabel data = td -->
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+        <!-- row 4 -->
 
-      <tr>
-        <!-- tabel data = td -->
-        <td>4</td>
-        <td>5</td>
-        <td>6</td>
-      </tr>
+        <tr>
+          <!-- tabel data = td -->
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+        </tr>
+      </tbody>
     </table>
   </body>
 </html>
