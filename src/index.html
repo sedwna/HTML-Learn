@@ -15,7 +15,7 @@ html : 5
   <head>
     <!-- باعث میشه روی همه مرورگر ها متن هایی مه داریم یکسان باشن -->
     <meta charset="UTF-8" />
-    <!--  -->
+    <!-- باعث میشه مباحث مربوط به ریسپانسیو ها به خوبی اعمال بشن -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- تگ تایتل همون عنوان صفحه رو به ما نشون میده -->
     <title>sedwna</title>
@@ -67,5 +67,33 @@ html : 5
     <!-- بالاوند و زیروند کردن -->
     <p>Lorem,<sub>ipsum.</sub></p>
     <p>Lorem,<sup>ipsum.</sup></p>
+    <!-- ارجاع دادن به یه سایت دیگه -->
+    <a href="https://google.com"> go to google</a>
+    <br>
+    <hr>
+    <!-- ارجاع دادن به یه صفحه دیگه از سایت خودمون-->
+    <a href="./about.html" style="font-size: 30px;"> <b>about me</b> </a>
+    <hr>
+    <!-- مثلا میخوایم یچیزی رو کلیک کنیم یه آهنگی یا هر چیزی دانلود بشه -->
+    <a href="address " download > click me to download music</a>
+    <br>
+    <!-- میخوایم با کلیک یه تب جدید باز بشه نه روی همون صفحه -->
+    <a href="./about.html" target="_blank"> <b>about me</b> </a>
+    <!-- وارد کردن عکس اون آلترنیتیو هست برای شرح تصویر یا وقتی که ممکنه تصویر به درستی باز نشه-->
+     <br>
+     <img src="../photo/p1.jpg" alt=" تی ای مبانی" width="120" height="120">
+     <br>
+     <img src="../photo/p3.jpg" alt="تتو" style="width: 150; height: 150px; ">
+    <!-- از این تگ بری ریسپانسیو کردن استفاده میکنیم -->
+     <picture>
+        <source media="(min-width: 768px)" srcset="../photo/p2.jpg" style="width: 150;">
+        <img src="../photo/p3.jpg" alt="تتو" style="width: 150; height: 150px; ">
+     </picture>
+
+
+
+
+
+
   </body>
 </html>
