@@ -28,7 +28,7 @@ html : 5
     <!-- این تگ میگه کلمه های کلیدی سایتمون چیه و برای سئو خیلی خوبه -->
     <meta name="keywords" content="html, css, JavaScript" />
     <!-- گذاشتن اون آیکون کوچیکه کنار اسم سایت -->
-     <link rel="icon" href="../photo/p3.jpg" type="image/jpg">
+    <link rel="icon" href="../photo/p3.jpg" type="image/jpg" />
   </head>
 
   <body>
@@ -56,12 +56,15 @@ html : 5
     </p>
     <!--  ایتالیک کردن چیز مدنظرمون اون ای ا هم همونه منتاها برای همون اهمیت به کلمه و سئو هستش-->
     <!-- وقتی توی پی میزاریم به اندازه خودش جامیگیره و کل سطر درگیر نمیشه -->
-    <i>Lorem ipsum dolor<br> sit  consectetur.</i>
+    <i
+      >Lorem ipsum dolor<br />
+      sit consectetur.</i
+    >
     <!-- همون بک اسلش ان که میندازه خط بعدی -->
-    <br>
+    <br />
     <!-- خط افقی میندازه -->
-     <hr>
-    <em>amet sedwna</em> 
+    <hr />
+    <em>amet sedwna</em>
     <!-- تگ مارک رو برای هایلایت کردن با رنگ دلخواه انجام میدیم -->
     <p>Lorem ipsum dolor <mark>sit amet.</mark></p>
     <!-- مثلا تخفیف میخوره روش خط میکشیم -->
@@ -71,34 +74,52 @@ html : 5
     <p>Lorem,<sup>ipsum.</sup></p>
     <!-- ارجاع دادن به یه سایت دیگه -->
     <a href="https://google.com"> go to google</a>
-    <br>
-    <hr>
+    <br />
+    <hr />
     <!-- ارجاع دادن به یه صفحه دیگه از سایت خودمون-->
-    <a href="./about.html" style="font-size: 30px;"> <b>about me</b> </a>
-    <br>
-    <a href="./tabel.html" style="font-size: 60px;"> <b>tabel</b> </a>
+    <a href="./about.html" style="font-size: 30px"> <b>about me</b> </a>
+    <br />
+    <a href="./tabel.html" style="font-size: 60px"> <b>tabel</b> </a>
 
-    <hr>
+    <hr />
     <!-- مثلا میخوایم یچیزی رو کلیک کنیم یه آهنگی یا هر چیزی دانلود بشه -->
-    <a href="address " download > click me to download music</a>
-    <br>
+    <a href="address " download> click me to download music</a>
+    <br />
     <!-- میخوایم با کلیک یه تب جدید باز بشه نه روی همون صفحه -->
     <a href="./about.html" target="_blank"> <b>about me</b> </a>
     <!-- وارد کردن عکس اون آلترنیتیو هست برای شرح تصویر یا وقتی که ممکنه تصویر به درستی باز نشه-->
-     <br>
-     <img src="../photo/p1.jpg" alt=" تی ای مبانی" width="120" height="120">
-     <br>
-     <img src="../photo/p3.jpg" alt="تتو" style="width: 150; height: 150px; ">
+    <br />
+    <img src="../photo/p1.jpg" alt=" تی ای مبانی" width="120" height="120" />
+    <br />
+    <img src="../photo/p3.jpg" alt="تتو" style="width: 150; height: 150px" />
     <!-- از این تگ بری ریسپانسیو کردن استفاده میکنیم -->
-     <picture>
-        <source media="(min-width: 768px)" srcset="../photo/p2.jpg" style="width: 150;">
-        <img src="../photo/p3.jpg" alt="تتو" style="width: 150; height: 150px; ">
-     </picture>
-
-
-
-
-
-
+    <picture>
+      <source
+        media="(min-width: 768px)"
+        srcset="../photo/p2.jpg"
+        style="width: 150"
+      />
+      <img src="../photo/p3.jpg" alt="تتو" style="width: 150; height: 150px" />
+    </picture>
+    <!-- Unordered list = ul & Ordered list = ol -->
+    <!-- این لیست ها مثلا برای درست کردن منو ها به کار میرن -->
+    <ul style="list-style-type: none;">
+      <!-- alt + shift + up or down == copy line -->
+      <li>Sajjad</li>
+      <li>Dehqan</li>
+      <li>Bu AliSina</li>
+      <li>Bu AliSina</li>
+      <li>Bu AliSina</li>
+      <li>Bu AliSina</li>
+    </ul>
+    <ol type="1" start="19">
+      <!-- alt + shift + up or down == copy line -->
+      <li>Sajjad</li>
+      <li>Dehqan</li>
+      <li>Bu AliSina</li>
+      <li>Bu AliSina</li>
+      <li>Bu AliSina</li>
+      <li>Bu AliSina</li>
+    </ol>
   </body>
 </html>
