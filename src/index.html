@@ -29,6 +29,15 @@ html : 5
     <meta name="keywords" content="html, css, JavaScript" />
     <!-- گذاشتن اون آیکون کوچیکه کنار اسم سایت -->
     <link rel="icon" href="../photo/p3.jpg" type="image/jpg" />
+    <!-- نحوه تعریف کلاس و آیدی-->
+    <style>
+      .text {
+        color: blue;
+      }
+      #saji {
+        color: blueviolet;
+      }
+    </style>
   </head>
 
   <body>
@@ -103,7 +112,7 @@ html : 5
     </picture>
     <!-- Unordered list = ul & Ordered list = ol -->
     <!-- این لیست ها مثلا برای درست کردن منو ها به کار میرن -->
-    <ul style="list-style-type: none;">
+    <ul style="list-style-type: none">
       <!-- alt + shift + up or down == copy line -->
       <li>Sajjad</li>
       <li>Dehqan</li>
@@ -122,14 +131,18 @@ html : 5
       <li>Bu AliSina</li>
     </ol>
     <!-- تگ های اینلاین که فضا ب اندازه خودشون اشغال میکنند -->
-     <!-- هیچوقت داخل تگ اینلاین از تگ بلاک استفاده نمیکنیم-->
-     <b>inline</b>
-     <a href="sd"> inline</a>
-     <i>تست اینلاین</i>
-     <hr>
-     <a href="div.html"> بریمان به دیو بندی</a>
+    <!-- هیچوقت داخل تگ اینلاین از تگ بلاک استفاده نمیکنیم-->
+    <b>inline</b>
+    <a href="sd"> inline</a>
+    <i>تست اینلاین</i>
+    <hr />
+    <a href="div.html"> بریمان به دیو بندی</a>
 
-
-
+    <!-- آیدی یونیکه ولی کلاس اینطور نیست-->
+     <!-- دو آیدی بااسم یکسان نباید استفاده کنیم -->
+      <!-- هر تگ میتونه چندین کلاس متفاوت داشته باشد -->
+    <p class="text">این متن برای تست کلاس است</p>
+    <p class="text">در واقع یجور ارثبریه</p>
+    <p id="saji">در واقع اینم آیدیه</p>
   </body>
 </html>
